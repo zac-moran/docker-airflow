@@ -125,3 +125,7 @@ You can also use this to run a bash shell or any other command in the same envir
 # Wanna help?
 
 Fork, improve and PR. ;-)
+
+# RUN
+
+docker run -d -p 8080:8080 -v /Users/zacmoran/docker-airflow/dags:/usr/local/airflow/dags e4b4af5e100c
